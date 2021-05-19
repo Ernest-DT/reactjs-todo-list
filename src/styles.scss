@@ -1,0 +1,15 @@
+#root {
+    background-color: hsl(0deg 0% 98%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    background-image: url("./img/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+}
