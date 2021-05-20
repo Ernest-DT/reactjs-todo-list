@@ -1,12 +1,15 @@
 import React from "react";
-import "./styles.scss";
+import Input from "../Input";
+import List from "../List";
+import "./TodoForm.scss";
 
-export default function TodoForm() {
-    return (
-            <form className="todoForm">
-                <h1>Test2</h1>
-            </form>
-    );
+function TodoForm() {
+  return (
+    <form className="todoForm">
+      <Input />
+      <List />
+    </form>
+  );
 }
 
-// export default TodoForm;
+export default TodoForm;
